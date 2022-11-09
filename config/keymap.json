@@ -22,11 +22,11 @@
        "&kp RIGHT_BRACKET",         "&kp SLASH",       "&kp DOT",         "&kp COMMA",           "&kp M",     "&kp N",                   "&none",    "&none", "&tog 2",   "&none",     "&none",         "&tog 2",            "&none",        "&none",            "&kp B",        "&kp V",  "&kp C",  "&kp X",  "&kp Z", "&kp LEFT_BRACKET",
             "&kp CAPSLOCK", "&kp RIGHT_CONTROL", "&kp RIGHT_ALT", "&kp RIGHT_COMMAND", "&kp RIGHT_SHIFT", "&kp ENTER",           "&kp BACKSPACE",    "&mo 2",  "&mo 2", "&kp TAB", "&kp SPACE", "&kp LEFT_SHIFT", "&kp LEFT_COMMAND", "&kp LEFT_ALT", "&kp LEFT_CONTROL", "&kp CAPSLOCK"
     ], [
-       "&kp F1", "&kp F2", "&kp F3", "&kp F4", "&kp F5", "&kp F6",           "&tog 1",  "&mo 3", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11", "&kp F12",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&none",  "&none", "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&none", "&trans", "&trans",                      "&trans",  "&trans",   "&none", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&none",  "&none", "&trans",  "&none",  "&none",  "&trans",   "&none",   "&none", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans", "&trans", "&trans"
+                     "&kp F1",               "&kp F2",   "&kp F3",   "&kp F4",    "&kp F5", "&kp F6",                   "&none", "&kp K_POWER", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11", "&kp F12",
+       "&kp C_BRIGHTNESS_DEC", "&kp C_BRIGHTNESS_INC",    "&none",   "&trans",    "&trans", "&trans",             "&kp PAGE_UP",       "&none", "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans",
+                     "&trans",               "&trans",   "&trans",   "&kp UP",    "&trans", "&trans",           "&kp PAGE_DOWN",       "&sl 3", "&trans",                      "&trans",   "&sl 3",   "&none", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+                     "&trans",               "&trans", "&kp LEFT", "&kp DOWN", "&kp RIGHT", "&trans",                   "&none",       "&none", "&trans",  "&none",  "&none",  "&trans",   "&none",   "&none", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+                     "&tog 0",               "&trans",   "&trans",   "&trans",    "&trans", "&trans",                  "&trans",      "&trans", "&trans", "&trans", "&trans",  "&trans",  "&trans",  "&trans", "&trans", "&trans"
     ], [
         "&none", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3",    "&bt BT_SEL 4",                            "&none",      "&trans", "&bt BT_SEL 0", "&bt BT_SEL 1",    "&bt BT_SEL 2", "&bt BT_SEL 3", "&bt BT_SEL 4",                  "&none",
         "&none",        "&none",        "&none",        "&none",        "&none",           "&none",                      "&bootloader", "&bootloader",        "&none",        "&none",           "&none",        "&none",        "&none",                  "&none",
