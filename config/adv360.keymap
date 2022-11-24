@@ -53,7 +53,7 @@
         &kp EQUAL              &kp P          &kp O              &kp I            &kp U      &kp Y                   &kp UP  &kp LEFT              &kp T    &kp R      &kp E             &kp W             &kp Q       &kp TAB
  &kp SINGLE_QUOTE      &kp SEMICOLON          &kp L              &kp K            &kp J      &kp H                 &kp DOWN    &trans  &kp RIGHT_COMMAND                      &kp LEFT_COMMAND            &trans     &kp RIGHT             &kp G         &kp F   &kp D   &kp S   &kp A   &kp LEFT_BRACKET
     &kp BACKSLASH          &kp SLASH        &kp DOT          &kp COMMA            &kp M      &kp N                    &none     &none    &kp RIGHT_SHIFT    &none      &none    &kp LEFT_SHIFT             &none         &none             &kp B         &kp V   &kp C   &kp X   &kp Z  &kp RIGHT_BRACKET
-     &kp CAPSLOCK  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_COMMAND  &kp RIGHT_SHIFT  &kp ENTER            &kp BACKSPACE     &mo 2              &mo 2  &kp TAB  &kp SPACE    &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp CAPSLOCK
+     &kp CAPSLOCK  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_COMMAND  &kp RIGHT_SHIFT  &kp ENTER            &kp BACKSPACE     &mo 3              &mo 3  &kp TAB  &kp SPACE    &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp CAPSLOCK
             >;
         };
 
