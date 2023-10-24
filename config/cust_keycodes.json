@@ -15,22 +15,5 @@
 		},
 		"footnotes": {},
 		"type": "UD"
-	},
-	{
-		"names": [
-			"CAPSLOCKaGLOBE"
-		],
-		"description": "CAPSLOCKaGLOBE",
-		"clarify": false,
-		"documentation": "",
-		"os": {
-			"windows": true,
-			"linux": true,
-			"android": true,
-			"macos": true,
-			"ios": true
-		},
-		"footnotes": {},
-		"type": "UD"
 	}
 ]
