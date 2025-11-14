@@ -28,22 +28,22 @@
         default_layer {
             display-name = "base";
             bindings = <
-&kp GRAVE          &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &to 2                                                                     &to 2        &kp N6  &kp N7           &kp N8             &kp N9         &kp N0             &kp MINUS
-&kp ESCAPE         &kp Q      &kp W     &kp E     &kp R      &kp T   &kp LEFT                                                                  &kp UP       &kp Y   &kp U            &kp I              &kp O          &kp P              &kp EQUAL
-&kp LEFT_BRACKET   &kp A      &kp S     &kp D     &kp F      &kp G   &kp RIGHT    &kp ENTER  &kp PAGE_UP        &kp HOME      &kp ENTER        &kp DOWN     &kp H   &kp J            &kp K              &kp L          &kp SEMI           &kp SQT
-&kp RIGHT_BRACKET  &kp Z      &kp X     &kp C     &kp V      &kp B                           &kp PAGE_DOWN      &kp END                                     &kp N   &kp M            &kp COMMA          &kp DOT        &kp FSLH           &kp BACKSLASH
-&kp CAPSLOCK       &kp LCTRL  &kp LALT  &kp LCMD  &kp LSHFT          &lt 1 SPACE  &lt 4 TAB  &lt 2 GRAVE        &lt 2 DELETE  &lt 4 BACKSPACE  &lt 1 SPACE          &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp CAPSLOCK
+&kp GRAVE          &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &to 2                                                                                       &to 2        &kp N6  &kp N7           &kp N8             &kp N9         &kp N0             &kp MINUS
+&kp ESCAPE         &kp Q      &kp W     &kp E     &kp R      &kp T   &kp LEFT                                                                                    &kp UP       &kp Y   &kp U            &kp I              &kp O          &kp P              &kp EQUAL
+&kp LEFT_BRACKET   &kp A      &kp S     &kp D     &kp F      &kp G   &kp RIGHT    &lt 4 ENTER         &kp PAGE_UP        &kp HOME         &lt 4 DELETE           &kp DOWN     &kp H   &kp J            &kp K              &kp L          &kp SEMI           &kp SQT
+&kp RIGHT_BRACKET  &kp Z      &kp X     &kp C     &kp V      &kp B                                    &kp PAGE_DOWN      &kp END                                              &kp N   &kp M            &kp COMMA          &kp DOT        &kp FSLH           &kp BACKSLASH
+&kp CAPSLOCK       &kp LCTRL  &kp LALT  &kp LCMD  &kp LSHFT          &lt 1 SPACE  &mt LEFT_SHIFT TAB  &lt 2 GRAVE        &lt 2 BACKSPACE  &mt RIGHT_SHIFT ENTER  &lt 1 SPACE          &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp CAPSLOCK
             >;
         };
 
         layer_esab {
             display-name = "esab";
             bindings = <
-&kp MINUS         &kp N0             &kp N9         &kp N8             &kp N7           &kp N6  &to 3                                                                                     &to 3      &kp N5  &kp N4          &kp N3            &kp N2        &kp N1            &kp GRAVE
-&kp EQUAL         &kp P              &kp O          &kp I              &kp U            &kp Y   &kp UP                                                                                    &kp LEFT   &kp T   &kp R           &kp E             &kp W         &kp Q             &kp ESCAPE
-&kp SINGLE_QUOTE  &kp SEMICOLON      &kp L          &kp K              &kp J            &kp H   &kp DOWN  &trans                     &kp HOME          &kp PAGE_UP    &trans              &kp RIGHT  &kp G   &kp F           &kp D             &kp S         &kp A             &kp LEFT_BRACKET
-&kp BACKSLASH     &kp SLASH          &kp DOT        &kp COMMA          &kp M            &kp N                                        &kp END           &kp PAGE_DOWN                                 &kp B   &kp V           &kp C             &kp X         &kp Z             &kp RIGHT_BRACKET
-&trans            &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_COMMAND  &kp RIGHT_SHIFT          &trans    &mt RIGHT_SHIFT BACKSPACE  &lt 3 DELETE      &lt 3 GRAVE    &mt LEFT_SHIFT TAB  &trans             &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans
+&kp MINUS         &kp N0             &kp N9         &kp N8             &kp N7           &kp N6  &to 3                                                                                    &to 3      &kp N5  &kp N4          &kp N3            &kp N2        &kp N1            &kp GRAVE
+&kp EQUAL         &kp P              &kp O          &kp I              &kp U            &kp Y   &kp UP                                                                                   &kp LEFT   &kp T   &kp R           &kp E             &kp W         &kp Q             &kp ESCAPE
+&kp SINGLE_QUOTE  &kp SEMICOLON      &kp L          &kp K              &kp J            &kp H   &kp DOWN  &kp DELETE             &kp HOME             &kp PAGE_UP    &kp ENTER           &kp RIGHT  &kp G   &kp F           &kp D             &kp S         &kp A             &kp LEFT_BRACKET
+&kp BACKSLASH     &kp SLASH          &kp DOT        &kp COMMA          &kp M            &kp N                                    &kp END              &kp PAGE_DOWN                                 &kp B   &kp V           &kp C             &kp X         &kp Z             &kp RIGHT_BRACKET
+&trans            &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_COMMAND  &kp RIGHT_SHIFT          &trans    &mt RIGHT_SHIFT ENTER  &lt 3 BACKSPACE      &lt 3 GRAVE    &mt LEFT_SHIFT TAB  &trans             &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans
             >;
         };
 
@@ -71,11 +71,11 @@
 
         layer_shift-esab {
             bindings = <
-&kp LS(MINUS)  &kp LS(N0)    &kp LS(N9)     &kp LS(N8)         &kp LS(N7)       &kp LS(N6)  &to 3                                                                             &to 3          &kp RS(N5)  &kp RS(N4)      &kp RS(N3)        &kp RS(N2)    &kp RS(N1)        &kp RS(GRAVE)
-&kp LS(EQUAL)  &kp LS(P)     &kp LS(O)      &kp LS(I)          &kp LS(U)        &kp LS(Y)   &kp LS(UP)                                                                        &kp RS(LEFT)   &kp RS(T)   &kp RS(R)       &kp RS(E)         &kp RS(W)     &kp RS(Q)         &kp RS(ESC)
-&kp LS(SQT)    &kp LS(SEMI)  &kp LS(L)      &kp LS(K)          &kp LS(J)        &kp LS(H)   &kp LS(DOWN)   &kp LS(RET)  &kp LS(HOME)        &kp RS(PAGE_UP)    &kp RS(ENTER)  &kp RS(RIGHT)  &kp RS(G)   &kp RS(F)       &kp RS(D)         &kp RS(S)     &kp RS(A)         &kp RS(LBKT)
-&kp LS(BSLH)   &kp LS(FSLH)  &kp LS(DOT)    &kp LS(COMMA)      &kp LS(M)        &kp LS(N)                               &kp LS(END)         &kp RS(PAGE_DOWN)                                &kp RS(B)   &kp RS(V)       &kp RS(C)         &kp RS(X)     &kp RS(Z)         &kp RS(RBKT)
-&trans         &kp RCTRL     &kp RIGHT_ALT  &kp RIGHT_COMMAND  &kp RIGHT_SHIFT              &kp LS(SPACE)  &trans       &kp LS(DELETE)      &kp RS(GRAVE)      &trans         &kp RS(SPACE)              &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans
+&kp LS(MINUS)  &kp LS(N0)    &kp LS(N9)     &kp LS(N8)         &kp LS(N7)       &kp LS(N6)  &to 3                                                                                &to 3          &kp RS(N5)  &kp RS(N4)      &kp RS(N3)        &kp RS(N2)    &kp RS(N1)        &kp RS(GRAVE)
+&kp LS(EQUAL)  &kp LS(P)     &kp LS(O)      &kp LS(I)          &kp LS(U)        &kp LS(Y)   &kp LS(UP)                                                                           &kp RS(LEFT)   &kp RS(T)   &kp RS(R)       &kp RS(E)         &kp RS(W)     &kp RS(Q)         &kp RS(ESC)
+&kp LS(SQT)    &kp LS(SEMI)  &kp LS(L)      &kp LS(K)          &kp LS(J)        &kp LS(H)   &kp LS(DOWN)   &trans         &kp LS(HOME)           &kp RS(PAGE_UP)    &trans       &kp RS(RIGHT)  &kp RS(G)   &kp RS(F)       &kp RS(D)         &kp RS(S)     &kp RS(A)         &kp RS(LBKT)
+&kp LS(BSLH)   &kp LS(FSLH)  &kp LS(DOT)    &kp LS(COMMA)      &kp LS(M)        &kp LS(N)                                 &kp LS(END)            &kp RS(PAGE_DOWN)                              &kp RS(B)   &kp RS(V)       &kp RS(C)         &kp RS(X)     &kp RS(Z)         &kp RS(RBKT)
+&trans         &kp RCTRL     &kp RIGHT_ALT  &kp RIGHT_COMMAND  &kp RIGHT_SHIFT              &kp LS(SPACE)  &kp LS(ENTER)  &kp LS(BACKSPACE)      &kp RS(GRAVE)      &kp RS(TAB)  &kp RS(SPACE)              &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans
             >;
         };
     };
