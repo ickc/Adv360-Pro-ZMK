@@ -28,22 +28,22 @@
         default_layer {
             display-name = "base";
             bindings = <
-&kp GRAVE          &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &to 2                                                                                                &to 2        &kp N6  &kp N7           &kp N8             &kp N9         &kp N0             &kp MINUS
-&kp ESCAPE         &kp Q      &kp W     &kp E     &kp R      &kp T   &kp LEFT                                                                                             &kp UP       &kp Y   &kp U            &kp I              &kp O          &kp P              &kp EQUAL
-&kp LEFT_BRACKET   &kp A      &kp S     &kp D     &kp F      &kp G   &kp RIGHT    &kp ENTER           &kp LEFT_COMMAND      &kp RIGHT_COMMAND  &kp ENTER                  &kp DOWN     &kp H   &kp J            &kp K              &kp L          &kp SEMI           &kp SQT
-&kp RIGHT_BRACKET  &kp Z      &kp X     &kp C     &kp V      &kp B                                    &kp LEFT_SHIFT        &kp RIGHT_SHIFT                                            &kp N   &kp M            &kp COMMA          &kp DOT        &kp FSLH           &kp BACKSLASH
-&kp CAPSLOCK       &kp LCTRL  &kp LALT  &kp LCMD  &kp LSHFT          &lt 1 SPACE  &mt LEFT_SHIFT TAB  &lt 2 GRAVE           &lt 2 DELETE       &mt RIGHT_SHIFT BACKSPACE  &lt 1 SPACE          &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp CAPSLOCK
+&kp GRAVE          &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &to 2                                                                                        &to 2        &kp N6  &kp N7           &kp N8             &kp N9         &kp N0             &kp MINUS
+&kp ESCAPE         &kp Q      &kp W     &kp E     &kp R      &kp T   &kp LEFT                                                                                     &kp UP       &kp Y   &kp U            &kp I              &kp O          &kp P              &kp EQUAL
+&kp LEFT_BRACKET   &kp A      &kp S     &kp D     &kp F      &kp G   &kp RIGHT    &kp ENTER           &kp PAGE_UP        &kp HOME      &kp ENTER                  &kp DOWN     &kp H   &kp J            &kp K              &kp L          &kp SEMI           &kp SQT
+&kp RIGHT_BRACKET  &kp Z      &kp X     &kp C     &kp V      &kp B                                    &kp PAGE_DOWN      &kp END                                               &kp N   &kp M            &kp COMMA          &kp DOT        &kp FSLH           &kp BACKSLASH
+&kp CAPSLOCK       &kp LCTRL  &kp LALT  &kp LCMD  &kp LSHFT          &lt 1 SPACE  &mt LEFT_SHIFT TAB  &lt 2 GRAVE        &lt 2 DELETE  &mt RIGHT_SHIFT BACKSPACE  &lt 1 SPACE          &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp CAPSLOCK
             >;
         };
 
         layer_esab {
             display-name = "esab";
             bindings = <
-&kp MINUS         &kp N0             &kp N9         &kp N8             &kp N7           &kp N6  &to 3                                                                                             &to 3      &kp N5  &kp N4          &kp N3            &kp N2        &kp N1            &kp GRAVE
-&kp EQUAL         &kp P              &kp O          &kp I              &kp U            &kp Y   &kp UP                                                                                            &kp LEFT   &kp T   &kp R           &kp E             &kp W         &kp Q             &kp ESCAPE
-&kp SINGLE_QUOTE  &kp SEMICOLON      &kp L          &kp K              &kp J            &kp H   &kp DOWN  &trans                     &kp RIGHT_COMMAND      &kp LEFT_COMMAND  &trans              &kp RIGHT  &kp G   &kp F           &kp D             &kp S         &kp A             &kp LEFT_BRACKET
-&kp BACKSLASH     &kp SLASH          &kp DOT        &kp COMMA          &kp M            &kp N                                        &kp RIGHT_SHIFT        &kp LEFT_SHIFT                                   &kp B   &kp V           &kp C             &kp X         &kp Z             &kp RIGHT_BRACKET
-&trans            &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_COMMAND  &kp RIGHT_SHIFT          &trans    &mt RIGHT_SHIFT BACKSPACE  &lt 3 DELETE           &lt 3 GRAVE       &mt LEFT_SHIFT TAB  &trans             &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans
+&kp MINUS         &kp N0             &kp N9         &kp N8             &kp N7           &kp N6  &to 3                                                                                     &to 3      &kp N5  &kp N4          &kp N3            &kp N2        &kp N1            &kp GRAVE
+&kp EQUAL         &kp P              &kp O          &kp I              &kp U            &kp Y   &kp UP                                                                                    &kp LEFT   &kp T   &kp R           &kp E             &kp W         &kp Q             &kp ESCAPE
+&kp SINGLE_QUOTE  &kp SEMICOLON      &kp L          &kp K              &kp J            &kp H   &kp DOWN  &trans                     &kp HOME          &kp PAGE_UP    &trans              &kp RIGHT  &kp G   &kp F           &kp D             &kp S         &kp A             &kp LEFT_BRACKET
+&kp BACKSLASH     &kp SLASH          &kp DOT        &kp COMMA          &kp M            &kp N                                        &kp END           &kp PAGE_DOWN                                 &kp B   &kp V           &kp C             &kp X         &kp Z             &kp RIGHT_BRACKET
+&trans            &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_COMMAND  &kp RIGHT_SHIFT          &trans    &mt RIGHT_SHIFT BACKSPACE  &lt 3 DELETE      &lt 3 GRAVE    &mt LEFT_SHIFT TAB  &trans             &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans
             >;
         };
 
