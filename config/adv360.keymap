@@ -20,49 +20,45 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-        hml: home_row_mod_left {
+        mmr: mirror_mod_right {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOME_ROW_MOD_LEFT";
+            label = "MIRROR_MOD_RIGHT";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <7 8 9 10 11 12 13 21 22 23 24 25 26 27 39 40 41 42 43 44 45 54 55 56 57 58 59 71 72 73 74 75>;
-            hold-trigger-on-release;
+            hold-trigger-key-positions = <7 8 9 10 11 12 13 21 22 23 24 25 26 27 37 38 39 40 41 42 43 44 45 53 54 55 56 57 58 59 68 69 70 71 72 73 74 75>;
         };
-        hmr: home_row_mod_right {
+        mml: mirror_mod_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOME_ROW_MOD_RIGHT";
+            label = "MIRROR_MOD_LEFT";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 34 46 47 48 49 50 51 60 61 62 63 64>;
-            hold-trigger-on-release;
+            hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 34 35 36 46 47 48 49 50 51 52 60 61 62 63 64 65 66 67>;
         };
-        hll: home_row_layer_left {
+        mlr: mirror_layer_right {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOME_ROW_LAYER_LEFT";
+            label = "MIRROR_LAYER_RIGHT";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             bindings = <&mo>, <&kp>;
-            hold-trigger-key-positions = <7 8 9 10 11 12 13 21 22 23 24 25 26 27 39 40 41 42 43 44 45 54 55 56 57 58 59 71 72 73 74 75>;
-            hold-trigger-on-release;
+            hold-trigger-key-positions = <7 8 9 10 11 12 13 21 22 23 24 25 26 27 37 38 39 40 41 42 43 44 45 53 54 55 56 57 58 59 68 69 70 71 72 73 74 75>;
         };
-        hlr: home_row_layer_right {
+        mll: mirror_layer_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOME_ROW_LAYER_RIGHT";
+            label = "MIRROR_LAYER_LEFT";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <175>;
             bindings = <&mo>, <&kp>;
-            hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 34 46 47 48 49 50 51 60 61 62 63 64>;
-            hold-trigger-on-release;
+            hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 34 35 36 46 47 48 49 50 51 52 60 61 62 63 64 65 66 67>;
         };
     };
 
@@ -74,9 +70,9 @@
             bindings = <
 &kp GRAVE          &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &to 2                                                                                       &to 2        &kp N6  &kp N7           &kp N8             &kp N9         &kp N0             &kp MINUS
 &kp ESCAPE         &kp Q      &kp W     &kp E     &kp R      &kp T   &kp LEFT                                                                                    &kp UP       &kp Y   &kp U            &kp I              &kp O          &kp P              &kp EQUAL
-&kp LEFT_BRACKET   &kp A      &kp S     &kp D     &kp F      &kp G   &kp RIGHT    &hlr 4 ENTER        &kp PAGE_UP        &kp HOME     &hll 4 DELETE              &kp DOWN     &kp H   &kp J            &kp K              &kp L          &kp SEMI           &kp SQT
+&kp LEFT_BRACKET   &kp A      &kp S     &kp D     &kp F      &kp G   &kp RIGHT    &mll 4 ENTER        &kp PAGE_UP        &kp HOME     &mlr 4 DELETE              &kp DOWN     &kp H   &kp J            &kp K              &kp L          &kp SEMI           &kp SQT
 &kp RIGHT_BRACKET  &kp Z      &kp X     &kp C     &kp V      &kp B                                    &kp PAGE_DOWN      &kp END                                              &kp N   &kp M            &kp COMMA          &kp DOT        &kp FSLH           &kp BACKSLASH
-&kp CAPSLOCK       &kp LCTRL  &kp LALT  &kp LCMD  &kp LSHFT          &hlr 1 SPACE &hmr LEFT_SHIFT TAB &hlr 2 GRAVE       &hll 2 ENTER &hml RIGHT_SHIFT BACKSPACE &hll 1 SPACE         &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp CAPSLOCK
+&kp CAPSLOCK       &kp LCTRL  &kp LALT  &kp LCMD  &kp LSHFT          &mll 1 SPACE &mml LEFT_SHIFT TAB &mll 2 GRAVE       &mlr 2 ENTER &mmr RIGHT_SHIFT BACKSPACE &mlr 1 SPACE         &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp CAPSLOCK
             >;
         };
 
@@ -87,7 +83,7 @@
 &kp EQUAL         &kp P              &kp O          &kp I              &kp U            &kp Y   &kp UP                                                                                   &kp LEFT   &kp T   &kp R           &kp E             &kp W         &kp Q             &kp ESCAPE
 &kp SINGLE_QUOTE  &kp SEMICOLON      &kp L          &kp K              &kp J            &kp H   &kp DOWN  &kp DELETE                 &kp HOME         &kp PAGE_UP    &kp ENTER           &kp RIGHT  &kp G   &kp F           &kp D             &kp S         &kp A             &kp LEFT_BRACKET
 &kp BACKSLASH     &kp SLASH          &kp DOT        &kp COMMA          &kp M            &kp N                                        &kp END          &kp PAGE_DOWN                                 &kp B   &kp V           &kp C             &kp X         &kp Z             &kp RIGHT_BRACKET
-&trans            &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_COMMAND  &kp RIGHT_SHIFT          &trans    &hmr RIGHT_SHIFT BACKSPACE &hlr 3 ENTER     &hll 3 GRAVE   &hml LEFT_SHIFT TAB &trans             &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans
+&trans            &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_COMMAND  &kp RIGHT_SHIFT          &trans    &mml RIGHT_SHIFT BACKSPACE &mll 3 ENTER     &mlr 3 GRAVE   &mmr LEFT_SHIFT TAB &trans             &kp LEFT_SHIFT  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &trans
             >;
         };
 
